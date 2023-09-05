@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to kokoa Clone</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>19:23</span>
+            <!--실시간 시간으로 바꾸는 JS 짜기-->
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fa-solid fa-battery-full fa-2x" style="color: #25cb65;"></i>
+            <i class="fa-solid fa-bolt-lightning"></i>
+        </div>
+    </div>
+    <header class="welcome--header">
+        <h1 class="welcome--header__title">
+            Welcome to Kokoa Clone
+        </h1>
+        <p class="welcome--header__text">
+            If you have a Kokoa Account,
+        </p>
+        <p class="welcome--header__text">
+        Log in with your Id or phonenumber
+        </p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+        <input name="username" type="text" placeholder="Email or Phone number">
+        <input name="password" type="password" placeholder="Password">
+        <input type="submit" value="Log in">
+        <a href="#">Find Kokoa Account or password</a>
+    </form>
+        <script src="https://kit.fontawesome.com/3db4b04396.js" crossorigin="anonymous"></script>
+</body>
+</html>
